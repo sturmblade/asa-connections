@@ -162,7 +162,7 @@ def Connections(filename):
  
 
 def main():
-    # Script to extract top talkers  
+    # Script to extract top talker
   args = sys.argv[1:]
   if (len(args) != 1):
     print 'usage: python ASA_sort_connections.py filename'
